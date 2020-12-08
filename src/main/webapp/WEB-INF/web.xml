@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <description></description>
+    <display-name>ExtractController</display-name>
+    <servlet-name>ExtractController</servlet-name>
+    <servlet-class>extractServlet.ExtractController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExtractController</servlet-name>
+    <url-pattern>/ExtractController</url-pattern>
+  </servlet-mapping>
+  <display-name>Extract_Data_On_Web</display-name>
+  <welcome-file-list>
+    <welcome-file>Extract.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
